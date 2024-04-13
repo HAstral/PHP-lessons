@@ -44,14 +44,14 @@
         };
 
         $numb= 1;
-        // while ($numb<=12){
-        //     echo $numb.'<br>';
-        //     $numb++;
-        // };
-        do{
+        while ($numb<=12){
             echo $numb.'<br>';
             $numb++;
-        }while ($numb>=12);
+        };
+        // do{
+        //     echo $numb.'<br>';
+        //     $numb++;
+        // }while ($numb>=12);
         function out($a, $b){
             // echo $a+$b;
             return $a+$b; 
